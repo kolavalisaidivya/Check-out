@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CheckOutComponent } from './check-out/check-out.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
-import { NextComponent } from './next/next.component';
 import { HomeInsuranceComponent } from './home-insurance/home-insurance.component';
 import { PaymentComponent } from './payment/payment.component';
 
@@ -14,7 +13,6 @@ import { PaymentComponent } from './payment/payment.component';
     AppComponent,
     CheckOutComponent,
     ProgressBarComponent,
-    NextComponent,
     HomeInsuranceComponent,
     PaymentComponent
   ],

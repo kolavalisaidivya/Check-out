@@ -7,12 +7,9 @@ import { Router } from '@angular/router';
 })
 export class PaymentComponent implements OnInit {
 
-  constructor(private router:Router) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
-next()
-{
-  this.router.navigate(['next']);
-}
+
 }

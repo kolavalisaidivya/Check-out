@@ -1,0 +1,59 @@
+img{
+    height: 50px;
+    width: 50px;
+}
+.vr
+{
+    height: 300px;
+    border-left:1px solid green;
+}
+#col1
+{
+    padding-top: 50px;
+}
+#col2
+{
+    padding-top:20px;
+}
+h1{
+    color:rgb(211, 94, 94);
+    padding-bottom: 10px;
+
+}
+#p1
+{
+    color: gold;
+    text-shadow: -1px -1px 0, 1px -1px 0 rgb(152, 243, 14), -1px 1px 0 greenyellow, 2px 2px 0 black ;
+}
+#bt
+{
+    background-color: skyblue;
+    color:rebeccapurple;
+}
+hr
+{
+    background-color:white;
+    border:1px dotted red;
+}
+#p2
+{
+    text-shadow: -1px -1px 0, 1px -1px 0 rgb(152, 243, 14), -1px 1px 0 greenyellow, 2px 2px 0 darkslategray;
+}
+.progress-bar
+{
+    background-color: #579c57;
+    text-align: right;
+}
+.progress
+{
+background-color: lightgrey;
+border-radius: 0;
+}
+.container
+{
+    padding-top:20px;
+}
+td
+{
+    font-weight: bold;
+}

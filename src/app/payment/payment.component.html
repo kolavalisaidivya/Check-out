@@ -1,0 +1,32 @@
+<div class="container col-md-7">
+  <h1 style="font-weight:normal;font-size:30px;" class="text-center">Payment Mode</h1>
+    <div class="container col4">
+    <table class="table">
+      <tr>
+      <td>          
+          <input name="radio" type="radio" id="rd1">
+          <label for="radio" class="form-check-label" for="rd1">
+            PayPal
+          </label> 
+        </td>
+      </tr>
+      <tr>
+      <td>
+            <input name="radio" type="radio" id="rd2">
+            <label for ="radio" class="form-check-label" for="rd2">
+              DebitCard
+            </label>    
+          </td>    
+        </tr>
+        <tr>  
+      <td>
+              <input name="radio" type="radio" id="rd3" checked>
+              <label for="radio" class="form-check-label" for="rd3">
+                CreditCard
+              </label>  
+            </td>      
+          </tr> 
+    </table>
+      </div>
+      <button type="button" class="rounded-pill btn-block" (click)="next()">Continue for Payment</button>
+</div>
